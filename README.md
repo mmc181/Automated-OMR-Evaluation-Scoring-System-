@@ -6,6 +6,11 @@ A comprehensive, production-ready system for automated evaluation of Optical Mar
 
 This system processes OMR sheets with 100 questions distributed across 5 subjects (20 questions each), supports multiple sheet versions, and provides a complete web-based evaluation platform.
 
+## Youtube Video 📽️
+
+https://youtu.be/Ils03SgGsJc
+This youtube video link explain the working and the principle of the system. It explains in detail the working and execution of the programm. 
+
 ### ✨ Key Features
 
 - **High Accuracy**: <0.5% error tolerance with advanced image processing
