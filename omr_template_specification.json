@@ -1,0 +1,72 @@
+{
+  "template_name": "Standard 100-Question OMR Sheet",
+  "version": "1.0",
+  "dimensions": {
+    "width_mm": 210,
+    "height_mm": 297,
+    "dpi": 300
+  },
+  "layout": {
+    "header_section": {
+      "student_id_bubbles": {
+        "position": "top_left",
+        "digits": 8,
+        "options_per_digit": 10
+      },
+      "sheet_version_bubbles": {
+        "position": "top_right",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    "question_section": {
+      "total_questions": 100,
+      "options_per_question": 4,
+      "layout_type": "grid",
+      "columns": 4,
+      "questions_per_column": 25
+    }
+  },
+  "subjects": {
+    "Subject_1": {
+      "questions": "1-20",
+      "column": 1
+    },
+    "Subject_2": {
+      "questions": "21-40",
+      "column": 2
+    },
+    "Subject_3": {
+      "questions": "41-60",
+      "column": 3
+    },
+    "Subject_4": {
+      "questions": "61-80",
+      "column": 4
+    },
+    "Subject_5": {
+      "questions": "81-100",
+      "column": 1
+    }
+  },
+  "bubble_specifications": {
+    "diameter_mm": 4,
+    "spacing_mm": 8,
+    "fill_threshold": 0.6,
+    "detection_method": "contour_analysis"
+  },
+  "quality_requirements": {
+    "min_resolution": "600x800",
+    "max_skew_degrees": 5,
+    "min_contrast": 0.3,
+    "supported_formats": [
+      "JPG",
+      "PNG",
+      "PDF"
+    ]
+  }
+}
